@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CraftLabs.DataAccess.Implementations.Contracts\CraftLabs.DataAccess.Implementations.Contracts.csproj" />
+    <ProjectReference Include="..\CraftLabs.Implementations.Contracts\CraftLabs.Implementations.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>CraftLabs_test</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CraftLabs.DataAccess.Implementations.Contracts\CraftLabs.DataAccess.Implementations.Contracts.csproj" />
+    <ProjectReference Include="..\CraftLabs.DataAccess.Implementations\CraftLabs.DataAccess.Implementations.csproj" />
+    <ProjectReference Include="..\CraftLabs.Implementations.Contracts\CraftLabs.Implementations.Contracts.csproj" />
+    <ProjectReference Include="..\CraftLabs.Implementations\CraftLabs.Implementations.csproj" />
+    <ProjectReference Include="..\CraftLabs.Models\CraftLabs.Models.csproj" />
+  </ItemGroup>
+
+</Project>
